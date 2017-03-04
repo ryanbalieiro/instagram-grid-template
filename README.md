@@ -1,6 +1,7 @@
 # InstagramGrid
 
 InstagramGrid is an off canvas fully responsive template for Bootstrap that mimics the photo grid of instagram's old web profile page.
+Live preview: https://ryanbalieiro.github.io/instagram-grid-template/
 
 ## Getting Started
 

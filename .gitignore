@@ -1,6 +1,7 @@
 docs/
 reports/
 .settings/
+.idea/
 
 .DS_Store*
 ehthumbs.db
