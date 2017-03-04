@@ -1,0 +1,170 @@
+/**
+ * Created by Ryan Balieiro on 5/1/16.
+ */
+
+body {
+    background-color: #eeeeee;
+}
+
+.col-5ths {
+    position: relative;
+    min-height: 1px;
+    float:left;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 16.666%;
+    -ms-flex: 0 0 16.666%;
+    flex: 0 0 16.666%;
+    width: 16.666%;
+}
+
+.col-5ths-2 {
+    position: relative;
+    min-height: 1px;
+    float:left;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.333%;
+    -ms-flex: 0 0 33.333%;
+    flex: 0 0 33.333%;
+    width: 33.333%;
+}
+
+.container {
+    width:100%;
+}
+
+#grid .container {
+    background-color:#111111;
+    padding-top:10px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+#grid .img-grid {
+    padding:0.5px 0.5px;
+}
+
+#header {
+    padding-left:30px;
+    padding-right:30px;
+}
+
+#header .container {
+    background-color: #FFFFFF;
+    border-left:1px #a7a7a7 solid;
+    border-right:1px #a7a7a7 solid;
+    border-bottom:1px #a7a7a7 solid;
+    padding-bottom:15px;
+    box-shadow: 0 4px 2px -2px #b5b5b5;
+}
+
+#header .container .profile-picture-box {
+    margin-top:-40%;
+    background-color:#EEEEEE;
+    padding:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    width:80%;
+    margin-left:10%;
+    border:1px #c4c4c4 solid;
+    box-shadow: 0 1px 1px 1px #b5b5b5;
+}
+
+#header .container .profile-picture-box .img-responsive {
+    width:100%;
+    border:1px #8b8b8b solid;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+
+#header .container .profile-picture-box .btn-primary {
+    margin-top:5px;
+    width:100%;
+    border:1px #193bb1 solid;
+    font-family: Lato;
+    font-size:15px;
+
+    background: #193bb1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#446eff, #193fcd); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#446eff, #193fcd); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#446eff, #193fcd); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#446eff, #193fcd); /* Standard syntax (must be last) */
+}
+
+#header .container .profile-picture-box .btn-primary:hover {
+    border:1px #1e4beb solid;
+
+    background: #122972; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#21357c, #0e226f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#21357c, #0e226f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#21357c, #0e226f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#21357c, #0e226f); /* Standard syntax (must be last) */
+}
+
+#header .user-info h2 {
+    font-family:Lato;
+    font-size:27px;
+    font-weight: bold;
+    color:#111111;
+}
+
+#header .user-info p {
+    font-family:Lato;
+    font-size:15px;
+}
+
+#header .user-description {
+    color:#999999;
+}
+
+#header .user-data-box {
+    background: #eeeeee; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ffffff, #dddddd); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffffff, #dddddd); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffffff, #dddddd); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffff, #dddddd); /* Standard syntax (must be last) */
+
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    border:1px #c4c4c4 solid;
+    box-shadow: 0 1px 1px 1px #dfdfdf;
+    position:relative;
+    float:right;
+    left:-10%;
+    top:20px;
+    width:100%;
+    max-width:280px;
+}
+
+@media(max-width:767px) {
+    #header .user-data-box {
+        max-width:767px;
+        margin-left:10%;
+        float:left;
+        width:100%;
+        top:10px;
+        margin-bottom: 10px;
+    }
+}
+
+#header .user-data-box .user-data-box-item {
+    text-align:center;
+    border-right:1px #c4c4c4 solid;
+    padding:5px;
+}
+
+#header .user-data-box .user-data-box-item:last-child {
+    border-right:none;
+}
+
+#header .user-data-box .data-type {
+    color:#999999;
+    font-family: Lato;
+}
+
+#header .user-data-box .data-value {
+    font-weight: bold;
+    font-size:15px;
+}

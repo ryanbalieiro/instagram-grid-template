@@ -1,0 +1,8 @@
+docs/
+reports/
+.settings/
+
+.DS_Store*
+ehthumbs.db
+Thumbs.db
+Desktop.ini
